@@ -1,0 +1,12 @@
+# Google OAuth credentials & tokens
+credentials/
+token.json
+token.pickle
+*.pickle
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files (optional)
+.env
