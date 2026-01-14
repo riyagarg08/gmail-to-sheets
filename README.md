@@ -92,4 +92,5 @@ Gmail Inbox (Unread Emails)
 ---
 
 ## 🔁 State Management & Duplicate Prevention
-State is stored in a local file.
+State is stored in a local file: last_processed.txt
+
