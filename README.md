@@ -40,6 +40,7 @@ Each qualifying email is appended as a new row in a Google Sheet with the follow
 ---
 
 ## 📂 Project Structure
+```
 gmail-to-sheets/
 │
 ├── src/
@@ -60,8 +61,9 @@ gmail-to-sheets/
 ├── requirements.txt
 ├── README.md
 └── config.py
-
+```
 ##  High-Level Architecture
+```
 Gmail Inbox (Unread Emails)
         ↓
    Gmail API (OAuth 2.0)
@@ -75,7 +77,7 @@ Gmail Inbox (Unread Emails)
         ↓
  Google Sheet (Append Rows)
 
-
+```
 ---
 
 ## ⚙️ Functional Flow
