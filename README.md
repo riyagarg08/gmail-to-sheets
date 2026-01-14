@@ -43,18 +43,18 @@ Each qualifying email is appended as a new row in a Google Sheet with the follow
 gmail-to-sheets/
 │
 ├── src/
-│   ├── gmail_service.py       # Gmail API authentication & email fetching
-│   ├── sheets_service.py      # Google Sheets API interaction
-│   ├── email_parser.py        # Email content parsing logic
-│   └── main.py                # Application entry point
+│ ├── gmail_service.py # Gmail API authentication & email fetching
+│ ├── sheets_service.py # Google Sheets API interaction
+│ ├── email_parser.py # Email content parsing logic
+│ └── main.py # Application entry point
 │
 ├── credentials/
-│   └── credentials.json       # OAuth credentials (DO NOT COMMIT)
+│ └── credentials.json # OAuth credentials (DO NOT COMMIT)
 │
 ├── proof/
-│   ├── gmail_unread.png       # Screenshot of unread Gmail emails
-│   ├── sheets_data.png        # Google Sheet populated with email data
-│   └── oauth_consent.png      # OAuth consent screen
+│ ├── gmail_unread.png # Screenshot of unread Gmail emails
+│ ├── sheets_data.png # Google Sheet populated with email data
+│ └── oauth_consent.png # OAuth consent screen
 │
 ├── .gitignore
 ├── requirements.txt
